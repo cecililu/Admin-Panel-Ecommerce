@@ -1,6 +1,7 @@
 .sideBar{
-    width: 20%;
-    color: white;
-    background-color: blue;
-    height: 1000.5vh;
+    flex: 1;
+    padding: 5px;
+    height: calc(100vh - 60px );
+    position: sticky;
+    top:60px;
 }

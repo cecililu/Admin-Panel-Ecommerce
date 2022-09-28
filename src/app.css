@@ -1,11 +1,17 @@
 .container{
-    display: flex;
-    justify-content: start;
-    align-items: center;
+   display: flex;
+   
     
 }
 .other{
     width: 100%;
-    background-color: rgb(116, 116, 233);
-    height: 1000.5vh;
+    background-color: rgb(171, 182, 218);
+    flex: 4;
+}
+.sideBarWrapper{
+    padding: 20px;
+}
+
+.sideBarMenu{
+    margin-bottom: 20px;
 }
