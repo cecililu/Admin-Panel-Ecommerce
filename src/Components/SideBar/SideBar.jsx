@@ -10,7 +10,7 @@ export default function SideBar() {
                 DashBoard
             </h4>
             <ul className="sideBarList">
-                <li className="sideBarItem">
+                <li className="sideBarItem active">
                     <LineStyle/>Home
                 </li>
                 <li className="sideBarItem">

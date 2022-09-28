@@ -5,3 +5,32 @@
     position: sticky;
     top:60px;
 }
+.sideBarWrapper{
+    padding: 20px;
+}
+
+.sideBarMenu{
+    margin-bottom: 20px;
+}
+
+.sideBarTitle{
+    padding: 5px;
+    font-size: 13px;
+    color:rgb(126, 126, 126)
+}
+
+.sideBarList{
+    padding: 5px;
+    list-style: none;
+    
+}
+
+.sideBarItem{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.sideBarItem.active,.sideBarItem :hover{
+    background-color: rgb(196, 196, 196);
+}

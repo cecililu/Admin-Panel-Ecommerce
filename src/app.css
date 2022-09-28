@@ -5,13 +5,6 @@
 }
 .other{
     width: 100%;
-    background-color: rgb(171, 182, 218);
+    background-color: rgb(193, 198, 213);
     flex: 4;
-}
-.sideBarWrapper{
-    padding: 20px;
-}
-
-.sideBarMenu{
-    margin-bottom: 20px;
 }
