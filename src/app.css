@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.other{
+    width: 100%;
+    background-color: rgb(116, 116, 233);
+    height: 1000.5vh;
+}
