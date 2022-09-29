@@ -5,3 +5,54 @@
     -moz-box-shadow: 15px 48px 30px 0px rgba(0,0,0,0.07);
     padding: 20px;
     }
+
+
+.widgetLarge{
+   font-size: 23px;;
+   font-weight: 500;
+
+    }
+
+    .widgetLgImg{
+       
+       height: 40px;
+       width: 40px;
+       border: 50%;
+       object-fit: cover; 
+       border-radius: 50%;
+       margin-right: 10px;
+    }
+
+   .widgetLgButton{
+    padding: 4px 7px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    }
+    .widgetLgButton.Approved{
+     background-color: rgb(97, 177, 97);
+    }
+
+    .widgetLgButton.Pending{
+        background-color: rgb(187, 187, 39);
+
+    }
+    .widgetLgButton.Declined{
+        background-color: rgb(216, 90, 90);
+    }
+
+    .widgetTable{
+        width: 100%;
+        border-spacing:20px ;
+    }
+    .widgetLgTh{
+        text-align: left;
+    }
+    .widgetLgUser{
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+    }
+    .widgetLgDate,.widgetLgAmount{
+        font-weight: 300;
+    }

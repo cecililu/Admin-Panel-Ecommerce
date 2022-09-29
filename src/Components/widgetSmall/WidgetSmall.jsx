@@ -14,7 +14,7 @@ export default function WidgetSmall() {
                     <span className="position">Sofware expert</span>
                 </div>
                 <button className='button'>
-                    <Visibility>Display</Visibility>
+                <Visibility></Visibility>Display
 
                 </button>
             </li>
@@ -26,7 +26,7 @@ export default function WidgetSmall() {
                     <span className="position">Sofware expert</span>
                 </div>
                 <button className='button'>
-                    <Visibility>Display</Visibility>
+                <Visibility></Visibility>Display
 
                 </button>
             </li>
@@ -38,7 +38,7 @@ export default function WidgetSmall() {
                     <span className="position">Sofware expert</span>
                 </div>
                 <button className='button'>
-                    <Visibility>Display</Visibility>
+                <Visibility></Visibility>Display
 
                 </button>
             </li>
@@ -50,7 +50,7 @@ export default function WidgetSmall() {
                     <span className="position">Sofware expert</span>
                 </div>
                 <button className='button'>
-                    <Visibility>Display</Visibility>
+                    <Visibility></Visibility>Display
 
                 </button>
             </li>
@@ -62,7 +62,7 @@ export default function WidgetSmall() {
                     <span className="position">Sofware expert</span>
                 </div>
                 <button className='button'>
-                    <Visibility>Display</Visibility>
+                    <Visibility></Visibility>Display
 
                 </button>
             </li>

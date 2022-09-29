@@ -15,7 +15,7 @@
 }
 
 .widgetTitle{
-   font-size: 30px;
+   font-size: 25px;
    font-weight: 400;
    
 }
@@ -45,4 +45,13 @@
 .position{
     font-size: 13px;
     color: rgb(90, 88, 88);
+}
+.button{
+    display: flex;
+    align-items: center;
+    border:none;
+    padding: 010px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(90, 88, 88);;
 }
