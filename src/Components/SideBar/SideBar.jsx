@@ -11,34 +11,72 @@ export default function SideBar() {
             </h4>
             <ul className="sideBarList">
                 <li className="sideBarItem active">
-                    <LineStyle/>Home
+                    <LineStyle className="sideBarIcon"/>Home
                 </li>
                 <li className="sideBarItem">
-                    <Timeline/>Analytics
+                    <Timeline className="sideBarIcon"/>Analytics
                 </li>
                 <li className="sideBarItem">
-                    <TrendingUp/>Sales
+                    <TrendingUp className="sideBarIcon"/>Sales
                 </li>
             </ul>
            </div>
+           <div className="sideBarMenu">
+            <h4 className="sideBarTitle">
+               Quick Menu
+            </h4>
+            <ul className="sideBarList">
+                <li className="sideBarItem active">
+                    <LineStyle className="sideBarIcon"/>User
+                </li>
+                <li className="sideBarItem">
+                    <Timeline className="sideBarIcon"/>Products
+                </li>
+                <li className="sideBarItem">
+                    <TrendingUp className="sideBarIcon"/>Transactions
+                </li>
+                <li className="sideBarItem">
+                    <TrendingUp className="sideBarIcon"/>Reports
+                </li>
+            </ul>
+           </div>
+
 
 
            <div className="sideBarMenu">
             <h4 className="sideBarTitle">
-                DashBoard
+                Notification
             </h4>
             <ul className="sideBarList">
                 <li className="sideBarItem">
-                    <LineStyle/>Home
+                    <LineStyle className="sideBarIcon"/>Mail
                 </li>
                 <li className="sideBarItem">
-                    <Timeline/>Analytics
+                    <Timeline className="sideBarIcon"/>FeedBack
                 </li>
                 <li className="sideBarItem">
-                    <TrendingUp/>Sales
+                    <TrendingUp  className="sideBarIcon"/>Message
                 </li>
             </ul>
            </div>
+
+           <div className="sideBarMenu">
+            <h4 className="sideBarTitle">
+                Staff
+            </h4>
+            <ul className="sideBarList">
+                <li className="sideBarItem active">
+                    <LineStyle className="sideBarIcon"/>Manage
+                </li>
+                <li className="sideBarItem">
+                    <Timeline className="sideBarIcon"/>Analytics
+                </li>
+                <li className="sideBarItem">
+                    <TrendingUp className="sideBarIcon"/>Reports
+                </li>
+            </ul>
+           </div>
+
        </div>
     </div>
   )

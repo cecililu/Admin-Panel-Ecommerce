@@ -1,16 +1,16 @@
 .sideBar{
     flex: 1;
-    padding: 5px;
-    height: calc(100vh - 60px );
+   
+    height: calc(100vh - 50px );
     position: sticky;
     top:60px;
 }
 .sideBarWrapper{
-    padding: 20px;
+    padding: 5px;
 }
 
 .sideBarMenu{
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
 
 .sideBarTitle{
@@ -23,14 +23,21 @@
     padding: 5px;
     list-style: none;
     
+    
 }
 
 .sideBarItem{
-    padding: 5px;
+    font-size: 13px;
+    padding: 1px;
     display: flex;
     align-items: center;
 }
 
 .sideBarItem.active,.sideBarItem :hover{
     background-color: rgb(196, 196, 196);
+}
+
+.sideBarIcon{
+    margin: 5px;
+    font-size: 15px !important;
 }
