@@ -10,7 +10,7 @@ export default function SideBar() {
                 DashBoard
             </h4>
             <ul className="sideBarList">
-                <li className="sideBarItem active">
+                <li className="sideBarItem ">
                     <LineStyle className="sideBarIcon"/>Home
                 </li>
                 <li className="sideBarItem">
@@ -26,7 +26,7 @@ export default function SideBar() {
                Quick Menu
             </h4>
             <ul className="sideBarList">
-                <li className="sideBarItem active">
+                <li className="sideBarItem ">
                     <LineStyle className="sideBarIcon"/>User
                 </li>
                 <li className="sideBarItem">
@@ -65,7 +65,7 @@ export default function SideBar() {
                 Staff
             </h4>
             <ul className="sideBarList">
-                <li className="sideBarItem active">
+                <li className="sideBarItem ">
                     <LineStyle className="sideBarIcon"/>Manage
                 </li>
                 <li className="sideBarItem">

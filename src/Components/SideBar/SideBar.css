@@ -33,8 +33,8 @@
     align-items: center;
 }
 
-.sideBarItem.active,.sideBarItem :hover{
-    background-color: rgb(196, 196, 196);
+.sideBarItem active, .sideBarItem:hover{
+    background-color: rgb(223, 222, 222);
 }
 
 .sideBarIcon{
