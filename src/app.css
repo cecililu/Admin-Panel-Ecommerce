@@ -1,10 +1,9 @@
 .container{
    display: flex;
-   
-    
+   margin-top: 10px;
 }
 .other{
-    width: 100%;
+   
     background-color: rgb(193, 198, 213);
     flex: 4;
 }
