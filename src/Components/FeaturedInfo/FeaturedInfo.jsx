@@ -4,15 +4,15 @@ import {ArrowDownward, ArrowUpward}from '@material-ui/icons';
 export default function FeaturedInfo() {
   return (
     <div className='featuredInfo'>
-       <div className="featuredItems">
+       <div className="featuredItems ">
             <span className="featuredTitle">
                 Revenue
             </span>
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">24$</span>
-                <span className="featuredMoneyRate">-11<ArrowDownward/></span>
+                <span className="featuredMoneyRate">-11<ArrowDownward className='featuredItem negative'/></span>
             </div>
-            <span className="featuredTitle">Compared to Last Month</span>
+            <span className="featuredSubTitle">Compared to Last Month</span>
        </div>
 
 
@@ -22,9 +22,9 @@ export default function FeaturedInfo() {
             </span>
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">2423$</span>
-                <span className="featuredMoneyRate">-11<ArrowDownward/></span>
+                <span className="featuredMoneyRate">-11<ArrowDownward className='featuredItem negative'/></span>
             </div>
-            <span className="featuredTitle">Compared to Last Month</span>
+            <span className="featuredSubTitle">Compared to Last Month</span>
        </div>
 
 
@@ -34,9 +34,9 @@ export default function FeaturedInfo() {
             </span>
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">24$</span>
-                <span className="featuredMoneyRate">11<ArrowUpward/></span>
+                <span className="featuredMoneyRate">11<ArrowUpward  className='featuredItem positive'/></span>
             </div>
-            <span className="featuredTitle">Compared to Last Month</span>
+            <span className="featuredSubTitle">Compared to Last Month</span>
        </div>
     </div>
   )
